@@ -1,16 +1,8 @@
 /** @type {import('next').NextConfig} */
-
-
-
 const nextConfig = {
-    images: {
-      domains: ['www.juntadeandalucia.es'], 
-    },
-    images: {
-        domains: ['www.pixabay.com'], 
-      },
-   
-  };
+  images: {
+    domains: ['www.juntadeandalucia.es'], 
+  },
+};
 
-  
 export default nextConfig;
