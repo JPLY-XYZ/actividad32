@@ -1,5 +1,6 @@
 import Titulo from "@/components/titulo";
 import Nav from "@/components/nav";
+import Image from "next/image";
 
 export const metadata = {
   title: "1.2.3.- Condiciones para convalidar Inglés",
