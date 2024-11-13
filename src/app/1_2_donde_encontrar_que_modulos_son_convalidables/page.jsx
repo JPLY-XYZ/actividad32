@@ -1,6 +1,7 @@
 import Titulo from "@/components/titulo";
 import Nav from "@/components/nav";
 import ItemLista from "@/components/item-lista";
+import Image from "next/image";
 
 export const metadata = {
   title: "1.2.- ¿Dónde encontrar qué módulos son convalidables?",
