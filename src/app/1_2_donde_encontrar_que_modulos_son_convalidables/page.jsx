@@ -93,7 +93,7 @@ export default function Home() {
 
 
       <div className="flex flex-col items-center justify-center mt-8">
-      <img className="w-[300px] h-[332px] border-2 border-black" src="https://www.juntadeandalucia.es/educacion/gestionafp/documentacion/Informacion_tutorial/school-1661730_960_720.jpg" alt="" />
+      <Image className="w-[300px] h-[332px] border-2 border-black" src="https://www.juntadeandalucia.es/educacion/gestionafp/documentacion/Informacion_tutorial/school-1661730_960_720.jpg" alt="" />
       <p className="text-xs pt-6">Imagen en <a className="text-blue-600 underline" title="Leyes" href="https://pixabay.com/es/escuela-libro-saber-lectura-1661730/" target="_blank" rel="noopener">Pixabay </a>de <a className="text-blue-600 underline" title="MonikaP" href="https://pixabay.com/es/users/MonikaP-2515080/" target="_blank" rel="noopener">MonikaP</a> bajo <a className="text-blue-600 underline" title="CC" href="https://creativecommons.org/publicdomain/zero/1.0/deed.es" target="_blank" rel="noopener">CC</a></p>
       </div>
       </div>
