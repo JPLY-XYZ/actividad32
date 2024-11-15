@@ -1,5 +1,7 @@
 import Titulo from "@/components/titulo";
 import Nav from "@/components/nav";
+import Image from "next/image";
+import ItemLista from "@/components/item-lista";
 
 export const metadata = {
   title:
@@ -62,7 +64,7 @@ export default function Home() {
           </b>
         </p>
 
-        <img
+        <Image
           className="w-[310px] h-[310px] self-center"
           src="https://www.juntadeandalucia.es/educacion/gestionafp/documentacion/Informacion_tutorial/calendar-1231038_960_720.jpg"
           alt=""
