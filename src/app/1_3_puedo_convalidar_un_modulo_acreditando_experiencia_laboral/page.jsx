@@ -12,8 +12,9 @@ export default function Home() {
       <Titulo> {metadata.title} </Titulo>
       <Nav pos={13} />
 
-      <div className="flex flex-col gap-4">
-        <p className="w-[800px] text-[18px] leading-5">
+      <div className="flex flex-row gap-4">
+      <div className="w-[80%]">
+        <p className=" text-[16px] leading-5 pb-4">
           <b>Salvo el módulo de Formación en Centros de Trabajo</b>
           <i>(las &quot; prácticas &quot;)</i>,<b>la respuesta es no</b>. En
           general,
@@ -23,7 +24,7 @@ export default function Home() {
           </b>
           .
         </p>
-        <p className="w-[800px] text-[18px] leading-5">
+        <p className="text-[16px] leading-5 pb-4">
           Si alguna persona cree que con su experiencia profesional ha adquirido
           las competencias necesarias de un módulo concreto, debe acreditar la
           posesión de esas unidades de competencia bien mediante un
@@ -51,7 +52,7 @@ export default function Home() {
           unidades de competencia que se adquieren al superar cada módulo
           profesional).
         </p>
-        <p className="w-[800px] text-[18px] leading-5">
+        <p className=" text-[18px] leading-5">
           Por tanto,
           <b>
             las unidades de competencia debidamente acreditadas pueden ser
@@ -65,15 +66,16 @@ export default function Home() {
             Competencia.
           </b>
         </p>
+        </div>
 
-        <div className="flex-row-reverse absolute top-[130px] right-[50px]">
+        <div className="">
           <Image
             className="float-end w-[350px] h-[332px] border-2 border-black self-center "
             title="Trabajo"
             alt="Trabajo"
             src="https://www.juntadeandalucia.es/educacion/gestionafp/documentacion/Informacion_tutorial/industrial-1636390_960_720.jpg"
             width="960"
-            height="720 f"
+            height="720"
           />
         </div>
       </div>
